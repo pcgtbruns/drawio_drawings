@@ -1,9 +1,48 @@
-<mxfile host="app.diagrams.net" modified="2024-05-13T07:01:34.897Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.4.0" etag="ZnZvdP-WCw3KRpMPxeW2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-13T07:48:00.451Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="1BJSmRzfsMHX9cX3ZrxC" version="24.4.0" type="github">
   <diagram name="Seite-1" id="xNyJsb7Hj6KQlKRMI_D0">
-    <mxGraphModel>
+    <mxGraphModel dx="2074" dy="1121" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="yl6fnM5czWNeo-RQSac8-1" value="Cognitive Services" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/ai_machine_learning/Cognitive_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="250" y="90" width="72" height="50.82" as="geometry" />
+        </mxCell>
+        <mxCell id="yl6fnM5czWNeo-RQSac8-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="yl6fnM5czWNeo-RQSac8-2" target="yl6fnM5czWNeo-RQSac8-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yl6fnM5czWNeo-RQSac8-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yl6fnM5czWNeo-RQSac8-2" target="yl6fnM5czWNeo-RQSac8-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yl6fnM5czWNeo-RQSac8-2" value="Azure Function" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Function_Apps.svg;" vertex="1" parent="1">
+          <mxGeometry x="250" y="204.23" width="72" height="63.53" as="geometry" />
+        </mxCell>
+        <mxCell id="yl6fnM5czWNeo-RQSac8-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yl6fnM5czWNeo-RQSac8-3" target="yl6fnM5czWNeo-RQSac8-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yl6fnM5czWNeo-RQSac8-3" value="Azure Event Grid" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Event_Grid.svg;" vertex="1" parent="1">
+          <mxGeometry x="90" y="200" width="72" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="yl6fnM5czWNeo-RQSac8-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yl6fnM5czWNeo-RQSac8-4" target="yl6fnM5czWNeo-RQSac8-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yl6fnM5czWNeo-RQSac8-4" value="Email" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.mail;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="90" y="80" width="72" height="39.6" as="geometry" />
+        </mxCell>
+        <mxCell id="yl6fnM5czWNeo-RQSac8-6" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/SAP_HANA_on_Azure.svg;" vertex="1" parent="1">
+          <mxGeometry x="250" y="340" width="72" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="yl6fnM5czWNeo-RQSac8-11" value="Web App" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="610" y="199" width="72" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="yl6fnM5czWNeo-RQSac8-12" value="Database" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/SQL_Database.svg;" vertex="1" parent="1">
+          <mxGeometry x="420" y="187.99999999999994" width="72" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="yl6fnM5czWNeo-RQSac8-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=-0.056;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="yl6fnM5czWNeo-RQSac8-2" target="yl6fnM5czWNeo-RQSac8-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yl6fnM5czWNeo-RQSac8-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.056;entryY=0.514;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="yl6fnM5czWNeo-RQSac8-12" target="yl6fnM5czWNeo-RQSac8-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
